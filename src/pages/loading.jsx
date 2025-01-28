@@ -16,7 +16,7 @@ const Loading = () => {
     }, [navigate]);
 
     return (
-        <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "80vh" }}>
+        <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "80vh", marginTop: "100px" }}>
             <Image src={neko} alt="Loading..." />
         </div>
     );

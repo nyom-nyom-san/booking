@@ -54,7 +54,7 @@ export default function AuthPage() {
             <Col sm={6}>
                 <Image src={loginImage} style={{ width: "40%", display: "block", margin: "230px" }} />
             </Col>
-            <Col sm={6} className="p-4">
+            <Col sm={6} className="p-4" style={{ backgroundColor: "#e2eceb" }}>
                 <Image src={nekoma} width="5%" />
                 <h1 className="mt-5" style={{ fontSize: 50, fontWeight: 'bold', color: "#00AAA0 " }}> Nekoma</h1>
                 <i className="mt-4" style={{ fontSize: 24, fontWeight: 700, color: "#00AAA0" }}>The purr-fect vet for your pet</i>
@@ -77,7 +77,7 @@ export default function AuthPage() {
                     </Button>
                     <p style={{ fontSize: "12px" }}>By Meow-up, you agree to the Terms of Service and Privacy Policy including Cookie use</p>
 
-                    <p className="mt-5" style={{ fontWeight: "bold", fontSize: "20px" }}>Already have an account?</p>
+                    <p className="mt-5" style={{ fontWeight: "bold", fontSize: "20px", marginTop: "10px" }}>Already have an account?</p>
                     <Button className="rounded-pill" style={{ backgroundColor: "#00AAA0 ", borderColor: "#00AAA0" }} onClick={handleShowLogin}>Log-in</Button>
                 </Col>
 
